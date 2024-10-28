@@ -24,10 +24,10 @@ clock.tick(FPS)
 pygame.display.set_caption("Dino Adventure")
 
 # Load sounds
-jump_sound = pygame.mixer.Sound('Dinoo/sprites/jump.wav')
-die_sound = pygame.mixer.Sound('Dinoo/sprites/die.wav')
-checkPoint_sound = pygame.mixer.Sound('Dinoo/sprites/checkPoint.wav')
-background_music = pygame.mixer.Sound('Dinoo/sprites/soundplaygame.mp3')
+jump_sound = pygame.mixer.Sound('sprites/jump.wav')
+die_sound = pygame.mixer.Sound('sprites/die.wav')
+checkPoint_sound = pygame.mixer.Sound('sprites/checkPoint.wav')
+background_music = pygame.mixer.Sound('sprites/soundplaygame.mp3')
 
 
 skins = {
